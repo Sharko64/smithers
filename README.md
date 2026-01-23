@@ -5,28 +5,15 @@ This CLI tool creates opinionated boilerplate project repos for a selection of p
 
 ---
 
-## Contributing
-
-We welcome contributions from everyone! Whether you're fixing a bug, adding a new feature, or improving documentation, we appreciate your help.
-
-### Steps to Contribute:
-
-1. Fork the repository.
-1. Create a new branch for your feature/fix.
-1. Commit your changes.
-1. Push your branch and submit a pull request.
-
----
-
-## License
-
-Smithers is released under the GNU License. See [LICENSE](https://github.com/Sharko64/Mr-Smithers/LICENSE) for more details.
-
----
-
-## Code of Conduct
-
-We follow a simple rule: be kind, be respectful. See [CODE_OF_CONDUCT](https://github.com/Sharko64/Mr-Smithers/CODE_OF_CONDUCT.md) for more information.
+## tldr;
+### Installation
+```
+curl https://test.com
+```
+### Usage
+```
+smithers init
+```
 
 ---
 
