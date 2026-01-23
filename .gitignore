@@ -2,3 +2,6 @@
 **/.DS_Store
 Icon*
 **/Icon*
+.ruff_cache
+.venv
+**/__pycache__
