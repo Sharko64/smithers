@@ -1,5 +1,5 @@
 # Smithers
-![CI](https://github.com/sharko64/smithers/actions/worflows/ci.yml/badge.svg)
+[![.github/workflows/ci.yml](https://github.com/Sharko64/smithers/actions/workflows/ci.yml/badge.svg)](https://github.com/Sharko64/smithers/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![uv](https://img.shields.io/badge/install-uv-brightgreen)
 ![ruff](https://img.shields.io/badge/code%20style-ruff-261230)
