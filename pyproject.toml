@@ -1,0 +1,14 @@
+[project]
+name = "smithers"
+version = "v0.1.0"
+description = "Project Template Generator"
+requires-python = ">=3.11"
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "mypy",
+    "pytest",
+    "ruff"
+]

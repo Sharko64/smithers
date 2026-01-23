@@ -1,7 +1,7 @@
 # Smithers
-### Configuration setup tool for workstation/server state preservation.
+### Project template generator.
 
-These scripts are meant to preserve configurations states of provided operating systems.
+This CLI tool creates opinionated boilerplate project repos for a selection of programming languages. It allows the user to initialize projects fast with varying granularity from draft to production ready. Optionally, one can opt out of git, github and docker.
 
 ---
 
@@ -20,7 +20,7 @@ We welcome contributions from everyone! Whether you're fixing a bug, adding a ne
 
 ## License
 
-Mr-Smithers is released under the GNU License. See [LICENSE](https://github.com/Sharko64/Mr-Smithers/LICENSE) for more details.
+Smithers is released under the GNU License. See [LICENSE](https://github.com/Sharko64/Mr-Smithers/LICENSE) for more details.
 
 ---
 
@@ -37,8 +37,6 @@ For any questions, feel free to open an issue or reach out to us at: your-email@
 ---
 
 ## Funding
-![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)
-![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
 ![Bitcoin](https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
 ![Solana](https://img.shields.io/badge/solana-%239945FF.svg?style=for-the-badge&logo=solana&logoColor=white)
