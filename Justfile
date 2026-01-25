@@ -1,7 +1,7 @@
 set shell := ["bash", "-cu"]
 
 run ARG:
-    python3 -m src.smithers {{ARG}}
+    uv run smithers {{ARG}}
 
 test:
     echo "Test"

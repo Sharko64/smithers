@@ -1,10 +1,13 @@
 [project]
 name = "smithers"
-version = "0.1.0"
-description = "Project Template Generator"
+version = "v0.1.0"
+description = "Opinionated Boilerplate Project Template Generator"
+readme = "README.md"
+license = { file = "" }
 requires-python = ">=3.11"
 
-dependencies = []
+[project.scripts]
+smithers = "smithers.__main__:main"
 
 [project.optional-dependencies]
 dev = [
@@ -13,5 +16,32 @@ dev = [
     "ruff"
 ]
 
-[project.scripts]
-smithers = "smithers.__main__:main"
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpath = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 64
+target-version = "py310"
+fix = false
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "W",
+    "B",
+    "C90",
+    "I",
+    "UP",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["smithers"]
