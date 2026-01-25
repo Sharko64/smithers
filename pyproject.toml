@@ -14,4 +14,4 @@ dev = [
 ]
 
 [project.scripts]
-smithers = "smithers.cli:main"
+smithers = "smithers.__main__:main"
