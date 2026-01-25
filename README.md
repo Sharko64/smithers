@@ -11,7 +11,7 @@ This CLI tool creates opinionated boilerplate project repos for a selection of p
 
 ---
 
-## tldr;
+## TL;DR
 ### Installation
 ```bash
 curl https://test.com
