@@ -14,7 +14,7 @@ This CLI tool creates opinionated boilerplate project repos for a selection of p
 ## TL;DR
 ### Installation
 ```bash
-curl https://test.com
+curl -fsSL https://smithers.dev/install.sh | sh
 ```
 ### Usage
 ```bash
