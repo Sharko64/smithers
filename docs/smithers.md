@@ -84,6 +84,8 @@ Supported values:
 
 mit
 apache
+gnu
+other
 none
 
 Default: none
@@ -190,10 +192,12 @@ Display smithers version.
 
 ### draft
 
+```plaintext
 /
 ├── .sh
 ├── README.md
 └── .editorconfig
+```
 
 Includes:
 
@@ -205,6 +209,7 @@ Includes:
 
 ### cli
 
+```plaintext
 /
 ├── bin/
 ├── lib/
@@ -212,6 +217,7 @@ Includes:
 ├── Makefile
 ├── README.md
 └── .gitignore
+```
 
 Includes:
 
@@ -225,15 +231,18 @@ Includes:
 
 ### draft
 
+```plaintext
 /
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
 ### cli
 
+```plaintext
 /
 ├── pyproject.toml
 ├── src//
@@ -244,6 +253,7 @@ Includes:
 ├── README.md
 ├── .gitignore
 └── .editorconfig
+```
 
 Features:
 
@@ -271,9 +281,11 @@ If `--ci` is specified, includes CI workflow.
 
 ### draft
 
+```plaintext
 /
 ├── Cargo.toml
 └── src/main.rs
+```
 
 Generated using `cargo new` conventions.
 
@@ -281,6 +293,7 @@ Generated using `cargo new` conventions.
 
 ### cli
 
+```plaintext
 /
 ├── Cargo.toml
 ├── src/
@@ -291,6 +304,7 @@ Generated using `cargo new` conventions.
 ├── README.md
 ├── .gitignore
 └── rustfmt.toml
+```
 
 Features:
 
@@ -380,8 +394,8 @@ Minimal. Opinionated. Industrial.
 
 To Generate Man Page
 
-pandoc smithers.md -s -t man -o smithers.1
+`pandoc smithers.md -s -t man -o smithers.1`
 
 To Generate Info Page
 
-pandoc smithers.md -s -t info -o smithers.info
+`pandoc smithers.md -s -t info -o smithers.info`
