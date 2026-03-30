@@ -11,17 +11,10 @@ This CLI tool creates opinionated boilerplate project repos for a selection of p
 
 ---
 
-## TL;DR
-### Installation
+## Installation
 ```bash
 curl -sSL https://raw.githubusercontent.com/Sharko64/smithers/main/scripts/install.sh | less
 ```
-
----
-
-## Contact
-
-For any questions, feel free to open an issue or reach out to us at: your-email@example.com
 
 ---
 
