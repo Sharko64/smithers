@@ -14,7 +14,7 @@ This CLI tool creates opinionated boilerplate project repos for a selection of p
 ## TL;DR
 ### Installation
 ```bash
-curl -sSL https://raw.githubusercontent.com/USERNAME/REPO/main/script.sh | sh
+curl -sSL https://raw.githubusercontent.com/Sharko64/smithers/main/scripts/install.sh | less
 ```
 
 ---
